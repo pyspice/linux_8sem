@@ -1,0 +1,8 @@
+#!/bin/bash
+
+make all
+sudo insmod task1_vinokurov.ko
+MAJOR_NUM=`dmesg | tail -n 1 | tr " " "\n" | tail -n -1`
+sudo mknod /dev/task1_vinokurov c $MAJOR_NUM 0
+sudo chmod 666 /dev/task1_vinokurov
+

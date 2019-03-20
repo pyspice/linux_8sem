@@ -1,0 +1,4 @@
+#!/bin/bash
+
+sudo rm /dev/task1_vinokurov
+sudo rmmod task1_vinokurov

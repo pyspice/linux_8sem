@@ -1,0 +1,6 @@
+#!/bin/bash
+
+echo "add Sergey 88005553535" > /dev/task1_vinokurov
+echo "info Sergey" > /dev/task1_vinokurov
+cat /dev/task1_vinokurov
+echo "remove Sergey" > /dev/task1_vinokurov
