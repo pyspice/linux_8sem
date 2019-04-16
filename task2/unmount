@@ -1,0 +1,3 @@
+#!/bin/bash
+
+sudo rmmod task2_vinokurov

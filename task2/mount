@@ -1,0 +1,4 @@
+#!/bin/bash
+
+make all
+sudo insmod task2_vinokurov.ko
