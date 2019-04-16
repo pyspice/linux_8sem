@@ -1,4 +1,4 @@
-# linux_8sem
+# Task1
 
 Simple linux kernel module: kernel phonebook.
 
